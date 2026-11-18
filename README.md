@@ -12,3 +12,4 @@ Open each pull request and read the **Files changed** tab.
 | #1 | One value changes (wheat folate baseline concentration, 2.6 to 0), made in both `folate.csv` and `folate.yaml` |
 | #2 | A new GF workbook: compliance changes for four vehicles, 12 rows cite a new decision |
 | #3 | The same one-value change as #1, after the CSV is saved from Excel on Windows |
+| #4 | The same change as #2, made in `vehicle.yaml` |

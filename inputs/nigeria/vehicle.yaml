@@ -1,0 +1,436 @@
+# Same content as vehicle.csv. Blank fields are omitted.
+
+wheat:
+  consumption_share:
+    total:
+      value: 0.282
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+      note: Share of WRA who eat wheat
+    q1:
+      value: 0.191
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q2:
+      value: 0.236
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q3:
+      value: 0.274
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q4:
+      value: 0.318
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q5:
+      value: 0.391
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+  consumption_mean:
+    q1:
+      value: 16.1
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+      note: Per capita over all WRA
+    q2:
+      value: 21.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 26.0
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 31.2
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 40.3
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  consumption_sd:
+    q1:
+      value: null
+      units: g/day
+      source: computed:consumer_cv
+      decision: D007
+      note: Survey SD is too small for the zero-inflated model
+    q2:
+      value: null
+      units: g/day
+      source: computed:consumer_cv
+      decision: D007
+    q3:
+      value: null
+      units: g/day
+      source: computed:consumer_cv
+      decision: D007
+    q4:
+      value: null
+      units: g/day
+      source: computed:consumer_cv
+      decision: D007
+    q5:
+      value: null
+      units: g/day
+      source: computed:consumer_cv
+      decision: D007
+  survey_consumption_sd:
+    q1:
+      value: 13.26
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q2:
+      value: 15.9
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 18.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 21.7
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 27.5
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  current_consolidation:
+    value: 1
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix O9
+    year: 2026
+  current_compliance:
+    value: 0.63
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix R9
+    year: 2026
+  target_compliance:
+    value: 0.85
+    units: proportion
+    source: GF background data, Coverage Over Time M8
+    year: 2026
+
+maize:
+  consumption_share:
+    total:
+      value: 0.412
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+      note: Share of WRA who eat maize
+    q1:
+      value: 0.498
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q2:
+      value: 0.455
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q3:
+      value: 0.421
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q4:
+      value: 0.377
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q5:
+      value: 0.309
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+  consumption_mean:
+    q1:
+      value: 88.2
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+      note: Per capita over all WRA
+    q2:
+      value: 79.5
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 71.3
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 60.8
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 44.9
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  consumption_sd:
+    q1:
+      value: 51.3
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q2:
+      value: 47.0
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 43.8
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 39.1
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 31.6
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  current_consolidation:
+    value: 0.31
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix O10
+    year: 2026
+  current_compliance:
+    value: 0.38
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix R10
+    year: 2026
+  target_compliance:
+    value: 0.7
+    units: proportion
+    source: GF background data, Coverage Over Time M9
+    year: 2026
+
+salt:
+  consumption_share:
+    total:
+      value: 0.981
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+      note: Share of WRA who eat salt
+    q1:
+      value: 0.972
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q2:
+      value: 0.979
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q3:
+      value: 0.983
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q4:
+      value: 0.985
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q5:
+      value: 0.986
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+  consumption_mean:
+    q1:
+      value: 6.9
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+      note: Per capita over all WRA
+    q2:
+      value: 7.1
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 7.2
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 7.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 7.5
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  consumption_sd:
+    q1:
+      value: 2.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q2:
+      value: 2.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 2.5
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 2.6
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 2.6
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  current_consolidation:
+    value: 0.92
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix O11
+    year: 2026
+  current_compliance:
+    value: 0.81
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix R11
+    year: 2026
+  target_compliance:
+    value: 0.95
+    units: proportion
+    source: GF background data, Coverage Over Time M10
+    year: 2026
+
+bouillon:
+  consumption_share:
+    total:
+      value: 0.953
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+      note: Share of WRA who eat bouillon
+    q1:
+      value: 0.931
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q2:
+      value: 0.948
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q3:
+      value: 0.957
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q4:
+      value: 0.962
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+    q5:
+      value: 0.967
+      units: proportion
+      source: NFCMS, Table 146, p 191
+      year: 2021
+  consumption_mean:
+    q1:
+      value: 2.1
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+      note: Per capita over all WRA
+    q2:
+      value: 2.3
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 2.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 2.6
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 2.7
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  consumption_sd:
+    q1:
+      value: 1.1
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q2:
+      value: 1.2
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q3:
+      value: 1.2
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q4:
+      value: 1.3
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+    q5:
+      value: 1.4
+      units: g/day
+      source: NFCMS, Table 147, p 193
+      year: 2021
+  current_consolidation:
+    value: 0.88
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix O12
+    year: 2026
+  current_compliance:
+    value: 0.12
+    units: proportion
+    source: GF background data, Burden x Vehicle Matrix R12
+    year: 2026
+  target_compliance:
+    value: 0.6
+    units: proportion
+    source: GF background data, Coverage Over Time M11
+    year: 2026
