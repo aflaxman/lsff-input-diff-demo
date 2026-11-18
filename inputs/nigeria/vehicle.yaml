@@ -116,18 +116,24 @@ wheat:
   current_consolidation:
     value: 1
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix O9
+    source: GF background data v2, Burden x Vehicle Matrix O9
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook, unchanged
   current_compliance:
-    value: 0.63
+    value: 0.71
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix R9
+    source: GF background data v2, Burden x Vehicle Matrix R9
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.63)
   target_compliance:
-    value: 0.85
+    value: 0.9
     units: proportion
-    source: GF background data, Coverage Over Time M8
+    source: GF background data v2, Coverage Over Time M8
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.85)
 
 maize:
   consumption_share:
@@ -216,20 +222,26 @@ maize:
       source: NFCMS, Table 147, p 193
       year: 2021
   current_consolidation:
-    value: 0.31
+    value: 0.36
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix O10
+    source: GF background data v2, Burden x Vehicle Matrix O10
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.31)
   current_compliance:
-    value: 0.38
+    value: 0.44
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix R10
+    source: GF background data v2, Burden x Vehicle Matrix R10
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.38)
   target_compliance:
-    value: 0.7
+    value: 0.75
     units: proportion
-    source: GF background data, Coverage Over Time M9
+    source: GF background data v2, Coverage Over Time M9
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.7)
 
 salt:
   consumption_share:
@@ -318,20 +330,26 @@ salt:
       source: NFCMS, Table 147, p 193
       year: 2021
   current_consolidation:
-    value: 0.92
+    value: 0.94
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix O11
+    source: GF background data v2, Burden x Vehicle Matrix O11
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.92)
   current_compliance:
-    value: 0.81
+    value: 0.84
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix R11
+    source: GF background data v2, Burden x Vehicle Matrix R11
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.81)
   target_compliance:
     value: 0.95
     units: proportion
-    source: GF background data, Coverage Over Time M10
+    source: GF background data v2, Coverage Over Time M10
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook, unchanged
 
 bouillon:
   consumption_share:
@@ -420,17 +438,23 @@ bouillon:
       source: NFCMS, Table 147, p 193
       year: 2021
   current_consolidation:
-    value: 0.88
+    value: 0.9
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix O12
+    source: GF background data v2, Burden x Vehicle Matrix O12
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.88)
   current_compliance:
-    value: 0.12
+    value: 0.2
     units: proportion
-    source: GF background data, Burden x Vehicle Matrix R12
+    source: GF background data v2, Burden x Vehicle Matrix R12
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.12)
   target_compliance:
-    value: 0.6
+    value: 0.65
     units: proportion
-    source: GF background data, Coverage Over Time M11
+    source: GF background data v2, Coverage Over Time M11
     year: 2026
+    decision: D040
+    note: Nov 2026 GF workbook (was 0.6)
