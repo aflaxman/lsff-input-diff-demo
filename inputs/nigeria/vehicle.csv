@@ -20,9 +20,9 @@ wheat,survey_consumption_sd,,4,,21.7,g/day,"NFCMS, Table 147, p 193",2021,,
 wheat,consumption_mean,,5,,40.3,g/day,"NFCMS, Table 147, p 193",2021,,
 wheat,consumption_sd,,5,,,g/day,computed:consumer_cv,,D007,
 wheat,survey_consumption_sd,,5,,27.5,g/day,"NFCMS, Table 147, p 193",2021,,
-wheat,current_consolidation,,,,1,proportion,"GF background data, Burden x Vehicle Matrix O9",2026,,
-wheat,current_compliance,,,,0.63,proportion,"GF background data, Burden x Vehicle Matrix R9",2026,,
-wheat,target_compliance,,,,0.85,proportion,"GF background data, Coverage Over Time M8",2026,,
+wheat,current_consolidation,,,,1,proportion,"GF background data v2, Burden x Vehicle Matrix O9",2026,D040,"Nov 2026 GF workbook, unchanged"
+wheat,current_compliance,,,,0.71,proportion,"GF background data v2, Burden x Vehicle Matrix R9",2026,D040,Nov 2026 GF workbook (was 0.63)
+wheat,target_compliance,,,,0.9,proportion,"GF background data v2, Coverage Over Time M8",2026,D040,Nov 2026 GF workbook (was 0.85)
 maize,consumption_share,,total,,0.412,proportion,"NFCMS, Table 146, p 191",2021,,Share of WRA who eat maize
 maize,consumption_share,,1,,0.498,proportion,"NFCMS, Table 146, p 191",2021,,
 maize,consumption_share,,2,,0.455,proportion,"NFCMS, Table 146, p 191",2021,,
@@ -39,9 +39,9 @@ maize,consumption_mean,,4,,60.8,g/day,"NFCMS, Table 147, p 193",2021,,
 maize,consumption_sd,,4,,39.1,g/day,"NFCMS, Table 147, p 193",2021,,
 maize,consumption_mean,,5,,44.9,g/day,"NFCMS, Table 147, p 193",2021,,
 maize,consumption_sd,,5,,31.6,g/day,"NFCMS, Table 147, p 193",2021,,
-maize,current_consolidation,,,,0.31,proportion,"GF background data, Burden x Vehicle Matrix O10",2026,,
-maize,current_compliance,,,,0.38,proportion,"GF background data, Burden x Vehicle Matrix R10",2026,,
-maize,target_compliance,,,,0.7,proportion,"GF background data, Coverage Over Time M9",2026,,
+maize,current_consolidation,,,,0.36,proportion,"GF background data v2, Burden x Vehicle Matrix O10",2026,D040,Nov 2026 GF workbook (was 0.31)
+maize,current_compliance,,,,0.44,proportion,"GF background data v2, Burden x Vehicle Matrix R10",2026,D040,Nov 2026 GF workbook (was 0.38)
+maize,target_compliance,,,,0.75,proportion,"GF background data v2, Coverage Over Time M9",2026,D040,Nov 2026 GF workbook (was 0.7)
 salt,consumption_share,,total,,0.981,proportion,"NFCMS, Table 146, p 191",2021,,Share of WRA who eat salt
 salt,consumption_share,,1,,0.972,proportion,"NFCMS, Table 146, p 191",2021,,
 salt,consumption_share,,2,,0.979,proportion,"NFCMS, Table 146, p 191",2021,,
@@ -58,9 +58,9 @@ salt,consumption_mean,,4,,7.4,g/day,"NFCMS, Table 147, p 193",2021,,
 salt,consumption_sd,,4,,2.6,g/day,"NFCMS, Table 147, p 193",2021,,
 salt,consumption_mean,,5,,7.5,g/day,"NFCMS, Table 147, p 193",2021,,
 salt,consumption_sd,,5,,2.6,g/day,"NFCMS, Table 147, p 193",2021,,
-salt,current_consolidation,,,,0.92,proportion,"GF background data, Burden x Vehicle Matrix O11",2026,,
-salt,current_compliance,,,,0.81,proportion,"GF background data, Burden x Vehicle Matrix R11",2026,,
-salt,target_compliance,,,,0.95,proportion,"GF background data, Coverage Over Time M10",2026,,
+salt,current_consolidation,,,,0.94,proportion,"GF background data v2, Burden x Vehicle Matrix O11",2026,D040,Nov 2026 GF workbook (was 0.92)
+salt,current_compliance,,,,0.84,proportion,"GF background data v2, Burden x Vehicle Matrix R11",2026,D040,Nov 2026 GF workbook (was 0.81)
+salt,target_compliance,,,,0.95,proportion,"GF background data v2, Coverage Over Time M10",2026,D040,"Nov 2026 GF workbook, unchanged"
 bouillon,consumption_share,,total,,0.953,proportion,"NFCMS, Table 146, p 191",2021,,Share of WRA who eat bouillon
 bouillon,consumption_share,,1,,0.931,proportion,"NFCMS, Table 146, p 191",2021,,
 bouillon,consumption_share,,2,,0.948,proportion,"NFCMS, Table 146, p 191",2021,,
@@ -77,6 +77,6 @@ bouillon,consumption_mean,,4,,2.6,g/day,"NFCMS, Table 147, p 193",2021,,
 bouillon,consumption_sd,,4,,1.3,g/day,"NFCMS, Table 147, p 193",2021,,
 bouillon,consumption_mean,,5,,2.7,g/day,"NFCMS, Table 147, p 193",2021,,
 bouillon,consumption_sd,,5,,1.4,g/day,"NFCMS, Table 147, p 193",2021,,
-bouillon,current_consolidation,,,,0.88,proportion,"GF background data, Burden x Vehicle Matrix O12",2026,,
-bouillon,current_compliance,,,,0.12,proportion,"GF background data, Burden x Vehicle Matrix R12",2026,,
-bouillon,target_compliance,,,,0.6,proportion,"GF background data, Coverage Over Time M11",2026,,
+bouillon,current_consolidation,,,,0.9,proportion,"GF background data v2, Burden x Vehicle Matrix O12",2026,D040,Nov 2026 GF workbook (was 0.88)
+bouillon,current_compliance,,,,0.2,proportion,"GF background data v2, Burden x Vehicle Matrix R12",2026,D040,Nov 2026 GF workbook (was 0.12)
+bouillon,target_compliance,,,,0.65,proportion,"GF background data v2, Coverage Over Time M11",2026,D040,Nov 2026 GF workbook (was 0.6)
