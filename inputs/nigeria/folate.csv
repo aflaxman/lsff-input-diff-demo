@@ -1,7 +1,7 @@
 vehicle,parameter,scenario,wealth_quintile,sex,value,units,source,year,decision,note
 wheat,baseline_share_fortified,,,,0,proportion,Assumption,,P001,No folic acid in Nigeria wheat flour today
 wheat,baseline_effectiveness,,,,0,proportion,"NFCMS, Figure 71",2021,,
-wheat,baseline_concentration,,,,2.6,mcg/g,TechnoServe,,,
+wheat,baseline_concentration,,,,0,mcg/g,Assumption,,P001,"Nigeria wheat flour standard has no folic acid requirement, so baseline is zero"
 wheat,intervention_coverage,intervention,,,,proportion,computed:gf_target,,,
 wheat,intervention_effectiveness,intervention,,,,proportion,computed:gf_target,,,
 wheat,intervention_concentration,intervention,,,2.6,mcg/g,"TechnoServe 2019, Table 2",2019,,
