@@ -1,0 +1,115 @@
+# Same content as folate.csv. Scenario is implied by the intervention_ prefix.
+
+wheat:
+  baseline_share_fortified:
+    value: 0
+    units: proportion
+    source: Assumption
+    decision: P001
+    note: No folic acid in Nigeria wheat flour today
+  baseline_effectiveness:
+    value: 0
+    units: proportion
+    source: NFCMS, Figure 71
+    year: 2021
+  baseline_concentration:
+    value: 2.6
+    units: mcg/g
+    source: TechnoServe
+  intervention_coverage:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_concentration:
+    value: 2.6
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+
+maize:
+  baseline_share_fortified:
+    value: null
+    units: proportion
+    source: computed:gf_baseline_share
+  baseline_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_effectiveness
+  baseline_concentration:
+    value: 2.6
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+  intervention_coverage:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_concentration:
+    value: 2.6
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+
+salt:
+  baseline_share_fortified:
+    value: null
+    units: proportion
+    source: computed:gf_baseline_share
+  baseline_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_effectiveness
+  baseline_concentration:
+    value: 0
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+  intervention_coverage:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_concentration:
+    value: 40
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+
+bouillon:
+  baseline_share_fortified:
+    value: null
+    units: proportion
+    source: computed:gf_baseline_share
+  baseline_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_effectiveness
+  baseline_concentration:
+    value: 80
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019
+  intervention_coverage:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_effectiveness:
+    value: null
+    units: proportion
+    source: computed:gf_target
+  intervention_concentration:
+    value: 80
+    units: mcg/g
+    source: TechnoServe 2019, Table 2
+    year: 2019

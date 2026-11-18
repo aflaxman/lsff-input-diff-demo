@@ -1,0 +1,3 @@
+decision_id,status,title,rationale,decided_by,date
+D007,active,Consumer CV for Nigeria wheat SD,NFCMS usual-intake SDs are incompatible with the zero-inflated model at 19-35% coverage; give consumers the NFCMS CV,Nathaniel,2026-10-02
+P001,active,No baseline folic acid in Nigeria wheat,Wheat flour standard does not require folic acid; treat baseline share as zero,Nathaniel,2026-09-18
