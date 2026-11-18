@@ -13,9 +13,11 @@ wheat:
     source: NFCMS, Figure 71
     year: 2021
   baseline_concentration:
-    value: 2.6
+    value: 0
     units: mcg/g
-    source: TechnoServe
+    source: Assumption
+    decision: P001
+    note: Nigeria wheat flour standard has no folic acid requirement, so baseline is zero
   intervention_coverage:
     value: null
     units: proportion
